@@ -1,0 +1,14 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx example.ts"
+  },
+  "dependencies": {
+    "@types/node": "^24.1.0",
+    "doddle": "^6.0.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
