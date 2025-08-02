@@ -3,12 +3,11 @@
     ".env": true,
     ".gitignore": true,
     "package.json": true,
-    "tsconfig.json": true,
     "yarn.lock": true,
     "README.md": true,
     "node_modules": true
 
-  }
+  },
   /**
    * Controls whether suggestions should be accepted on commit characters.
    * For example, in JavaScript, the semi-colon (;) can be a commit character that accepts a suggestion and types that character.
@@ -109,7 +108,7 @@
   /**
    * Controls the font size in pixels.
    */
-  // "editor.fontSize": 12,
+  "editor.fontSize": 18
   /**
    * Controls the font weight. Accepts 'normal' and 'bold' keywords or numbers values between '100' and '900'.
    */
@@ -296,7 +295,7 @@
    * The number of spaces a tab is equal to. This setting is overridden based
    * on the file contents when 'editor.detectIndentation' is on.
    */
-  // "editor.tabSize": 2,
+   ,"editor.tabSize": 4
   /**
    * Inserting and deleting whitespace follows tab stops.
    * Defaults to true.

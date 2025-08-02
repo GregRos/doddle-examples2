@@ -3,8 +3,8 @@
     "strict": true,
     "target": "ES2022",
     "lib": ["ES2022"],
-    "moduleResolution": "nodenext",
-    "module": "nodenext",
+    "moduleResolution": "bundler",
+    "module": "preserve",
     "noEmit": true,
     "sourceMap": true
   }
